@@ -13,11 +13,11 @@ const Notes = (props) => {
   useEffect(() => {
     if(localStorage.getItem('token')){
 
-      getNotes()
+      getNotes();
     }
 
     else{
-      navigate('/login')
+      navigate('/login');
       
     }
   }, [])
