@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+i{
+  cursor: pointer;
+}
+
+.login-container{
+  margin: auto;
+  margin-top: 80px;
+  height: 350px;
+  width: 300px;
+  padding: 16px ;
+  padding-top: 35px;
+  border-radius: 10px;
+
+}
+
+.login-btn{
+  width: 100%;
+  margin-top: 16px;
+}
+
+.login-container .p{
+
+  font-size: 14px;
+}
+.signup-container{
+
+  margin: auto;
+  margin-top: 60px;
+  height: 450px;
+  width: 350px;
+  padding: 16px ;
+  padding-top: 35px;
+  border-radius: 10px;
+}
+.plus-btn{
+  border-radius: 50px;
+}
+
+
+
+.notes-container{
+  height: 460px;
+  width: 80vw;
+  padding: 16px;
+  border: none;
+  border-radius: 16px;
+  margin-top: 100px;
+}
+.notes{
+  height: 200px;
+  width: 160px;
+  text-align: center;
+  border: none;
+  background-color: rgb(230, 230, 142);
+  padding-top: 36px;
+  
+  border-bottom-right-radius: 31px;
+
+  margin: auto;
+
+}
+.notes-content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border: none;
+  padding: 18px;
+  text-align: center;
+}
+
+.notes-right{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: none;
+  margin: auto;
+  padding: 60px;
+
+}
+
+
+.button{
+  height: 36px;
+  width: 39px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(208, 208, 208);
+}
+
+.heading{  
+  text-align: center;
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+p span {
+  font-size: 18px;
+}
