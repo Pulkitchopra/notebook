@@ -50,7 +50,7 @@ function App() {
     <>
 
     <NoteState>
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Navbar title = "Notebook" mode= {mode} toggleMode = {toggleMode} />
       <Alert alert = {alert}/>
       <div className='container'>
